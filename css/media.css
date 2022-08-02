@@ -377,6 +377,59 @@
     
 }
 
+@media screen and (max-width: 48em){
+    .nav{
+        max-height: 100vh;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .logo{
+        font-size: 25px;
+        padding: 0 20px;
+        line-height: 40px;
+    }
+
+    .nav-menu{
+        flex-direction: column;
+        align-items: center;
+        margin-right: 20px;
+        background-color: #262b4f;
+        
+        /*#2c3e50;*/
+        position:absolute;
+        left: 0;
+        top: 80px;
+        width: 100%;
+        padding: 20px 0;
+        height: calc(100% - 60px);
+        overflow-y: auto;
+        left: 100%;
+        transition: left 0.3s;
+        height: 32%;
+    }
+
+    .nav-menu-item{
+        line-height: 70px;
+    }
+
+    .nav-menu-link{
+        color: #fff;
+    }
+
+    .nav-menu-link:hover,
+    .nav-menu-link_active{
+        background: none;
+        
+    }
+
+    
+
+    .nav-menu_visible{
+        left: 0;
+    }
+}
+
 
 /*  Tablets de diez pulgadas - modo vertical*/
 
