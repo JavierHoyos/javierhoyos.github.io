@@ -19,14 +19,16 @@
     display: flex;
     margin-right: 40px;
     list-style: none;
+    padding: 10px;
 }
 
 .nav-menu-item{
     font-size: 18px;
-    margin: 0 10px;
-    line-height: 80px;
+    margin: 40px 0px;
+    line-height: 20px;
     text-transform: uppercase;
     width: max-content;
+    display: block;
 }
 
 .nav-menu-link{
