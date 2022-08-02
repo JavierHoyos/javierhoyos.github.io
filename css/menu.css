@@ -19,7 +19,7 @@
     display: flex;
     margin-right: 40px;
     list-style: none;
-    padding: 10px;
+    padding-top: 10px;
 }
 
 .nav-menu-item{
@@ -36,6 +36,10 @@
     border-radius: 3px;
 }
 
+.nav-menu-link.active, .nav-menu-link:hover{
+    color:  #a7c717 ;
+}
+
 
 .nav-toggle{
     color: white;
@@ -49,4 +53,6 @@
     display: block;
 
 }
+
+
 
