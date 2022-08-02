@@ -31,9 +31,11 @@
 
 
     .right-header{
-        padding-right: 70px;
+        /*padding-right: 70px;
         padding-left: 60px;
-        min-width: 350px;
+        min-width: 350px;*/
+        padding-right: 22rem;
+        padding-left: 22rem;
     }
 
     .header-content{
@@ -49,11 +51,11 @@
         margin-left: 4px;
     }
 
-
+    /*
     .info-personal{
         margin-right: 17px;
         margin-left: 30px;
-    }
+    }*/
     
     .prog-title{
         display: flex;
@@ -140,9 +142,12 @@
 
 
     .right-header{
-        padding-right: 70px;
+        /*padding-right: 70px;
         padding-left: 60px;
-        min-width: 350px;
+        min-width: 350px;*/
+        
+        padding-right: 22rem;
+        padding-left: 22rem;
     }
 
     .header-content{
@@ -256,17 +261,23 @@
 
 
 
-    .right-header{
-        padding-right: 100px;
-        padding-left: 94px;
-        min-width: 350px;
-    }
-
     .header-content{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+
+    
+
+    .right-header{
+        /*padding-right: 100px;
+        padding-left: 94px;
+        min-width: 350px;*/
+
+        padding-right: 22rem;
+        padding-left: 22rem;
     }
 
     .name{
@@ -373,9 +384,11 @@
         justify-content: center;
         align-items: center;
     }
-}
 
     
+}
+
+
 
 @media screen and (max-width: 48em){
     .nav{
@@ -434,15 +447,26 @@
     }
 }
 
-
-
-
-
 /*  Tablets de diez pulgadas - modo vertical*/
 
 @media screen and (min-width: 48em){
     section{
         background-color: blue;
+    }
+
+    .toggle{
+        display: none;
+    }
+
+    .info-personal{
+        min-width: 700px;
+        padding: 40px;
+    }
+
+    .name{
+        min-width: 600px;
+        display: flex;
+        justify-content: center;
     }
     
     .blogs{
@@ -503,8 +527,17 @@
     }
 
     .right-header{
-        padding-right: 32rem;
+        padding-right: 22rem;
         padding-left: 22rem;
+    }
+
+    .name{
+        max-width: 600px;
+    }
+
+    .info-personal{
+        min-width: 1000px;
+        padding: 40px;
     }
 
     
@@ -557,6 +590,11 @@
     .right-header{
         padding-right: 52rem;
         padding-left: 52rem;
+    }
+
+    .info-personal{
+        min-width: 1200px;
+        padding: 50px;
     }
 
     .left-contact{
