@@ -375,11 +375,10 @@
     }
 
     
-}
 
 @media screen and (max-width: 48em){
     .nav{
-        max-height: 100vh;
+        max-height: 100%;
         display: flex;
         justify-content: flex-start;
     }
@@ -391,30 +390,34 @@
     }
 
     .nav-menu{
-        flex-direction: column;
         align-items: center;
+        justify-content: center;
         margin-right: 20px;
-        background-color: #262b4f;
-        
+        /*background-color: #262b4f;*/
+        background: rgba(0,0, 0, .65);
         /*#2c3e50;*/
         position:absolute;
         left: 0;
         top: 80px;
-        width: 30%;
+        width: 100%;
         padding: 20px 0;
-        height: calc(100% - 60px);
+        height: calc(80% - 60px);
         overflow-y: auto;
         left: 100%;
         transition: left 0.3s;
-        height: 32%;
+        height: 12%;
     }
 
     .nav-menu-item{
         line-height: 70px;
+        width: 115.33px;
     }
 
     .nav-menu-link{
         color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
     }
 
     .nav-menu-link:hover,
@@ -429,6 +432,9 @@
         left: 0;
     }
 }
+}
+
+
 
 
 /*  Tablets de diez pulgadas - modo vertical*/
