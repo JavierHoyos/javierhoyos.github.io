@@ -227,10 +227,12 @@
 
 
 @media screen and (max-width: 25.375em){
-    .nav-menu{
+    /*.nav-menu{
         flex-direction: column;
         justify-content: center;
-    }
+    }*/
+
+    
 }
 
 
@@ -384,11 +386,81 @@
 
 @media screen and (max-width: 48em){
     .nav{
-        max-height: 100%;
+        /*max-height: 100%;
         display: flex;
-        justify-content: flex-start;
-    }
+        justify-content: flex-start;*/
 
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        border: 5px solid blue;
+    }
+    
+
+
+    
+.bar-btn{
+    font-size: 16px;
+    color: #fff !important;
+    margin-right: 20px;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.nav-menu{
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 20px;
+    /*background: rgba(0,0,0, .55);*/
+    text-align: center;
+    transition: all .5s;
+}
+
+.nav-menu li{
+    display: none;
+    line-height: 30px;
+    margin: 50px 0;
+    transition: all .5s;
+    padding: 10px;
+}
+
+.nav-menu li a{
+    color: #fff;
+}
+
+.nav-menu li a{
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+/*
+.nav-menu li a.active, .nav-menu li a:hover {
+    color: #12646b;
+    transition: .3s;
+}*/
+
+
+#check {
+    display: none;
+}
+
+#check.checked ~ .nav-menu{
+    height: 100vh;
+}
+
+#check:checked ~ .nav-menu li {
+    display: block;
+}
+
+    /*
     .logo{
         font-size: 25px;
         padding: 0 20px;
@@ -400,9 +472,9 @@
         justify-content: center;
         margin-right: 40px;
         padding: 10px;
-        /*background-color: #262b4f;*/
+        /*background-color: #262b4f;
         background: rgba(0,0, 0, .65);
-        /*#2c3e50;*/
+        /*#2c3e50;
         position:absolute;
         left: 0;
         top: 80px;
@@ -418,6 +490,7 @@
     .nav-menu-item{
         line-height: 70px;
         width: 115.33px;
+        display: none;
     }
 
     .nav-menu-link{
@@ -437,7 +510,7 @@
 
     .nav-menu_visible{
         left: 0;
-    }
+    }*/
 }
 
 /*  Tablets de diez pulgadas - modo vertical*/
