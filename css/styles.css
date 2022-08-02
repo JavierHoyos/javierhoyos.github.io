@@ -58,6 +58,14 @@ a{
     font-family: inherit;
 }
 
+.nav-menu li a{
+    color: var(--color-secondary);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 26px;
+}
+
+
 header{
     min-height:100vh;
     color: var(--color-white);
