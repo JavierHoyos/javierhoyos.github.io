@@ -245,6 +245,14 @@
 
 
 
+@media screen and (max-width: 25em){
+    .nav-menu{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+
 
 /*   Pantallas pequeñas - modo horizontal     */
 
@@ -419,7 +427,7 @@
         overflow-y: auto;
         left: 100%;
         transition: left 0.3s;
-        height: 12%;
+        height: 32%;
     }
 
     .nav-menu-item{
