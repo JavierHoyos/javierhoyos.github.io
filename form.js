@@ -7,5 +7,5 @@ btnEnvio.addEventListener('click', function(e){
     const tema = document.getElementById('tema').value;
     const mensaje = document.getElementById('mensaje').value;
 
-    window.location.href=`mailto:hoyosjavier56@gmail.com?subject=envioDesdeFormulario&body=Nombre%${nombre}%0ACorreo%${email}%0Aasunto%3${tema}%0Amensaje%3A${mensaje}`;
+    window.location.href=`mailto:hoyosjavier56@gmail.com?subject=envioDesdeFormulario&body=Nombre%3A%20${nombre}%0ACorreo%3A%20${email}%0AAsunto%3A%20${tema}%0AMensaje%3A%20${mensaje}`;
 });
